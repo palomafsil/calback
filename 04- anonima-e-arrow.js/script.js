@@ -5,13 +5,13 @@ function executar(acao) {
 }
 // Aqui criamos uma função SEM NOME diretamente dentro da chamada.
 executar(function () {
-    console.log('Funcionou com função anônima!');
+    console.log("Funcionou com função anônima!");
 });
 
 // Arrow function é uma escrita mais curta para criar uma função.
 // O símbolo => pode ser lido como "vai executar isto" neste exemplo.
 executar(() => {
-    console.log('Funcionou com arrow function!');
+    console.log("Funcionou com arrow function!");
 });
 
 // Nos dois casos, a função só é executada porque executar() chama acao().
